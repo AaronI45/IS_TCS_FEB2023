@@ -7,6 +7,13 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Label Content="Nombre de usuario" HorizontalAlignment="Center" Margin="0,57,0,0" VerticalAlignment="Top"/>
+        <Label Content="Constraseña" HorizontalAlignment="Center" Margin="0,191,0,0" VerticalAlignment="Top"/>
+        <Button Content="Iniciar sesión" HorizontalAlignment="Center" Margin="0,321,0,0" VerticalAlignment="Top" Click="ClicIniciarSesion"/>
+        <TextBox x:Name="tbUsername" Margin="0,88,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="200"/>
+        <PasswordBox x:Name ="tbPassword" HorizontalAlignment="Center" Margin="0,233,0,0" VerticalAlignment="Top" Width="200"/>
+        <Label x:Name ="lbUsername" Content="" HorizontalAlignment="Center" Margin="0,111,0,0" VerticalAlignment="Top" Foreground="Red"/>
+        <Label x:Name="lbPassword" Content="" HorizontalAlignment="Center" Margin="0,256,0,0" VerticalAlignment="Top" Foreground="Red"/>
 
     </Grid>
 </Window>

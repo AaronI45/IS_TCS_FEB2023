@@ -31,7 +31,7 @@ namespace ServiciosLinqEscolar
             return composite;
         }
 
-        public Usuario InicioSesion(string username, string password)
+        public Mensaje InicioSesion(string username, string password)
         {
             return UsuarioDAO.iniciarSesion(username, password);
         }

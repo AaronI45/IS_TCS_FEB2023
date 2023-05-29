@@ -5,6 +5,14 @@ VisualStudioVersion = 17.5.33414.496
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiciosLinqEscolar", "ServiciosLinqEscolar\ServiciosLinqEscolar.csproj", "{DB42BFB0-139E-4E40-A9B3-50F773774C29}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{60118B21-A0F0-412A-8D99-C67F435EBCEB}"
+	ProjectSection(SolutionItems) = preProject
+		FrontEndEscolar\FrontEndEscolar.csproj = FrontEndEscolar\FrontEndEscolar.csproj
+		FrontEndEscolar\FrontEndEscolar.csproj.user = FrontEndEscolar\FrontEndEscolar.csproj.user
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrontEndEscolar", "FrontEndEscolar\FrontEndEscolar.csproj", "{8FF97B0B-73EC-433B-9BEF-849CA49B45E1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +23,10 @@ Global
 		{DB42BFB0-139E-4E40-A9B3-50F773774C29}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB42BFB0-139E-4E40-A9B3-50F773774C29}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB42BFB0-139E-4E40-A9B3-50F773774C29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FF97B0B-73EC-433B-9BEF-849CA49B45E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FF97B0B-73EC-433B-9BEF-849CA49B45E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FF97B0B-73EC-433B-9BEF-849CA49B45E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FF97B0B-73EC-433B-9BEF-849CA49B45E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

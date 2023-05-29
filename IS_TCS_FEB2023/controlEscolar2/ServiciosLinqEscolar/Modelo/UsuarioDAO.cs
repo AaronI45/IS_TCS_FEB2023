@@ -17,20 +17,33 @@ namespace ServiciosLinqEscolar.Modelo
         }
 
         //TODO
-        public static Usuario iniciarSesion(string username, string password)
+        public static Mensaje iniciarSesion(string username, string password)
         {
             DataClassesEscolarUVDataContext conexionBD = getConnection();
-
+            Mensaje respuesta = new Mensaje();
+            respuesta.Error = true;
             try
             {
                 var resultadoLogin = conexionBD.Usuario.FirstOrDefault(u => u.username.Equals(username)
                                         && u.password.Equals(password));
-                return resultadoLogin;
+                respuesta.UsuarioEncontrado = resultadoLogin;
+                if (resultadoLogin != null) 
+                {
+                    respuesta.Respuesta = "Credenciales correctas, bienvenido al sistema";
+                    respuesta.UsuarioEncontrado = resultadoLogin;
+                    respuesta.Error = false;
+                }
+                else
+                {
+                    respuesta.Respuesta = "No se encontraron usuarios con las credenciales proporcionadas";
+                }
             }
             catch(Exception e)
             {
+                respuesta.Respuesta = "Error de conexión";
                 throw new Exception("Error al obtener usuario");
             }
+            return respuesta;
         }
 
         public static Boolean guardarUsuario(Usuario usuarioNuevo)

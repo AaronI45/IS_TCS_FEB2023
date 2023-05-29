@@ -18,7 +18,7 @@ namespace ServiciosLinqEscolar
         List<Usuario> ObtenerUsuarios();
 
         [OperationContract]
-        Usuario InicioSesion(string username, string password);
+        Mensaje InicioSesion(string username, string password);
 
         [OperationContract]
         Boolean GuardarUsuario(Usuario usuarioNuevo);

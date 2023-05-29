@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ServicioControlEscolar;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,9 +21,45 @@ namespace FrontEndEscolar
     /// </summary>
     public partial class MainWindow : Window
     {
+        ServicioControlEscolar.Service1Client servicio;
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void ClicIniciarSesion(object sender, RoutedEventArgs e)
+        {
+            string username = tbUsername.Text;
+            string password = tbPassword.Password;
+            if (!ChecarCamposVacios(username, password))
+            {
+                //iniciar sesion
+            }
+
+        }
+
+        private bool ChecarCamposVacios(string username, string password)
+        {
+            bool hayCamposVacios = false;
+            if (string.IsNullOrEmpty(username))
+            {
+                lbUsername.Content = "Campo requerido";
+                hayCamposVacios = true;
+            }
+            else
+            {
+                lbUsername.Content = "";
+            }
+            if (string.IsNullOrEmpty(password))
+            {
+                lbPassword.Content = "Campo requerido";
+                hayCamposVacios = true;
+            }
+            else
+            {
+                lbPassword.Content = "";
+            }
+            return hayCamposVacios;
         }
     }
 }

@@ -5,3 +5,10 @@ D:\a\controlEscolar2\ServiciosLinqEscolar\obj\Debug\ServiciosLinqEscolar.csproj.
 D:\a\controlEscolar2\ServiciosLinqEscolar\obj\Debug\ServiciosLinqEscolar.csproj.CoreCompileInputs.cache
 D:\a\controlEscolar2\ServiciosLinqEscolar\obj\Debug\ServiciosLinqEscolar.dll
 D:\a\controlEscolar2\ServiciosLinqEscolar\obj\Debug\ServiciosLinqEscolar.pdb
+C:\Users\super\Documents\escuelini\6to\tecnologias\codigo\actividades\IS_TCS_FEB2023\IS_TCS_FEB2023\controlEscolar2\ServiciosLinqEscolar\obj\Debug\ServiciosLinqEscolar.csproj.AssemblyReference.cache
+C:\Users\super\Documents\escuelini\6to\tecnologias\codigo\actividades\IS_TCS_FEB2023\IS_TCS_FEB2023\controlEscolar2\ServiciosLinqEscolar\obj\Debug\ServiciosLinqEscolar.csproj.CoreCompileInputs.cache
+C:\Users\super\Documents\escuelini\6to\tecnologias\codigo\actividades\IS_TCS_FEB2023\IS_TCS_FEB2023\controlEscolar2\ServiciosLinqEscolar\obj\Debug\ServiciosLinqEscolar.dll
+C:\Users\super\Documents\escuelini\6to\tecnologias\codigo\actividades\IS_TCS_FEB2023\IS_TCS_FEB2023\controlEscolar2\ServiciosLinqEscolar\obj\Debug\ServiciosLinqEscolar.pdb
+C:\Users\super\Documents\escuelini\6to\tecnologias\codigo\actividades\IS_TCS_FEB2023\IS_TCS_FEB2023\controlEscolar2\ServiciosLinqEscolar\bin\ServiciosLinqEscolar.dll.config
+C:\Users\super\Documents\escuelini\6to\tecnologias\codigo\actividades\IS_TCS_FEB2023\IS_TCS_FEB2023\controlEscolar2\ServiciosLinqEscolar\bin\ServiciosLinqEscolar.dll
+C:\Users\super\Documents\escuelini\6to\tecnologias\codigo\actividades\IS_TCS_FEB2023\IS_TCS_FEB2023\controlEscolar2\ServiciosLinqEscolar\bin\ServiciosLinqEscolar.pdb

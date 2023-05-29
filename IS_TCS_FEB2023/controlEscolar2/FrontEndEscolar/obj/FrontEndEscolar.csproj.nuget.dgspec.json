@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\a\\controlEscolar2\\FrontEndEscolar\\FrontEndEscolar.csproj": {}
+    "C:\\Users\\super\\Documents\\escuelini\\6to\\tecnologias\\codigo\\actividades\\IS_TCS_FEB2023\\IS_TCS_FEB2023\\controlEscolar2\\FrontEndEscolar\\FrontEndEscolar.csproj": {}
   },
   "projects": {
-    "D:\\a\\controlEscolar2\\FrontEndEscolar\\FrontEndEscolar.csproj": {
+    "C:\\Users\\super\\Documents\\escuelini\\6to\\tecnologias\\codigo\\actividades\\IS_TCS_FEB2023\\IS_TCS_FEB2023\\controlEscolar2\\FrontEndEscolar\\FrontEndEscolar.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\a\\controlEscolar2\\FrontEndEscolar\\FrontEndEscolar.csproj",
+        "projectUniqueName": "C:\\Users\\super\\Documents\\escuelini\\6to\\tecnologias\\codigo\\actividades\\IS_TCS_FEB2023\\IS_TCS_FEB2023\\controlEscolar2\\FrontEndEscolar\\FrontEndEscolar.csproj",
         "projectName": "FrontEndEscolar",
-        "projectPath": "D:\\a\\controlEscolar2\\FrontEndEscolar\\FrontEndEscolar.csproj",
+        "projectPath": "C:\\Users\\super\\Documents\\escuelini\\6to\\tecnologias\\codigo\\actividades\\IS_TCS_FEB2023\\IS_TCS_FEB2023\\controlEscolar2\\FrontEndEscolar\\FrontEndEscolar.csproj",
         "packagesPath": "C:\\Users\\super\\.nuget\\packages\\",
-        "outputPath": "D:\\a\\controlEscolar2\\FrontEndEscolar\\obj\\",
+        "outputPath": "C:\\Users\\super\\Documents\\escuelini\\6to\\tecnologias\\codigo\\actividades\\IS_TCS_FEB2023\\IS_TCS_FEB2023\\controlEscolar2\\FrontEndEscolar\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -43,6 +43,28 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "System.ServiceModel.Duplex": {
+              "target": "Package",
+              "version": "[4.10.*, )"
+            },
+            "System.ServiceModel.Federation": {
+              "target": "Package",
+              "version": "[4.10.*, )"
+            },
+            "System.ServiceModel.Http": {
+              "target": "Package",
+              "version": "[4.10.*, )"
+            },
+            "System.ServiceModel.NetTcp": {
+              "target": "Package",
+              "version": "[4.10.*, )"
+            },
+            "System.ServiceModel.Security": {
+              "target": "Package",
+              "version": "[4.10.*, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -62,7 +84,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
